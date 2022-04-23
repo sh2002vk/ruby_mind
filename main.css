@@ -1,0 +1,56 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+
+.header
+{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body
+{
+    position: absolute;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 250%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-250%);
+    width: 100%;
+    white-space: pre-line;
+}
+
+.body h2
+{
+    text-align: center;
+}
+
+.header h1
+{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+  div {
+    display: inline-block;
+  }
+}
