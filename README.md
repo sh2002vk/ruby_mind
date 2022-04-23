@@ -2,3 +2,7 @@
 
 the first public presence of ruby mind - a paper hedge fund
 
+
+developed by @shubh
+
+
