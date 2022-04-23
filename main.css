@@ -21,22 +21,23 @@ body
     display: flex;
     flex-direction: row;
     justify-content: center;
+    overflow: hidden;
 }
 
-.body
-{
-    position: absolute;
-    color: white;
-    font-family: 'Inconsolata', monospace;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    top: 250%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-250%);
-    width: 100%;
-    white-space: pre-line;
-}
+/*.info*/
+/*{*/
+/*    position: absolute;*/
+/*    color: white;*/
+/*    font-family: 'Inconsolata', monospace;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    top: 150%;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%) translateY(-150%);*/
+/*    width: 100%;*/
+/*    white-space: pre-line;*/
+/*}*/
 
 .body h2
 {
